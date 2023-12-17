@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7F1FA"
+    tools:context=".LuasSegitigaSamaSisi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/elegant_rounded_background">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="Keliling Segitiga"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:textColor="#26344F"
+            android:fontFamily="@font/poppinsbold"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/gambar02"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rumus: Sisi1 + Sisi2 + Sisi3"
+            android:textAlignment="center"
+            android:layout_marginBottom="16dp"
+            android:textSize="18sp"
+            android:textColor="#26344F"
+            android:fontFamily="@font/poppinsmedium"
+            />
+
+        <EditText
+            android:id="@+id/editTextSisi1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Masukkan sisi 1 segitiga"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edittext_border"
+            android:padding="12dp"
+            android:textColor="#26344F"
+            android:textStyle="bold"
+            android:textColorHint="#26344F"
+            android:fontFamily="@font/poppinslight"
+
+            />
+
+        <EditText
+            android:id="@+id/editTextSisi2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Masukkan sisi 2 segitiga"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edittext_border"
+            android:padding="12dp"
+            android:textColor="#26344F"
+            android:textStyle="bold"
+            android:textColorHint="#26344F"
+            android:fontFamily="@font/poppinslight"
+
+            />
+
+        <EditText
+            android:id="@+id/editTextSisi3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Masukkan sisi 3 segitiga"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edittext_border"
+            android:padding="12dp"
+            android:textColor="#26344F"
+            android:textStyle="bold"
+            android:textColorHint="#26344F"
+            android:fontFamily="@font/poppinslight"
+            />
+
+        <Button
+            android:id="@+id/buttonHitung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Hitung Keliling"
+            android:textColor="#26344F"
+            android:backgroundTint="#FF805D"
+            android:padding="14dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextHasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:enabled="false"
+            android:hint="Hasil Keliling Segitiga"
+            android:textColor="#26344F"
+            android:textStyle="bold"
+            android:textColorHint="#26344F"
+            android:fontFamily="@font/poppinslight"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            >
+
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textSize="18sp"
+                android:textColor="#FF805D"
+                android:backgroundTint="#26344F"
+                android:layout_marginEnd="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

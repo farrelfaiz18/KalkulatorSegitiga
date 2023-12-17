@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#E7F1FA"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="SEGITIGA SAMA SISI"
+        android:textColor="#FF805D"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/gambar02"
+        android:contentDescription="Gambar Segitiga" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:textAlignment="center"
+        android:text="Segitiga sama sisi adalah segitiga dengan ketiga sisi yang memiliki panjang yang sama, sehingga memiliki tiga sudut yang juga memiliki ukuran yang sama."
+        android:textColor="#26344F"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonKeliling"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Hitung Keliling"
+        android:textSize="20sp"
+        android:textColor="#26344F"
+        android:backgroundTint="#FF805D"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/buttonLuas"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Hitung Luas"
+        android:textSize="20sp"
+        android:textColor="#26344F"
+        android:backgroundTint="#FF805D"
+        android:layout_marginTop="8dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        >
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textSize="18sp"
+            android:textColor="#FF805D"
+            android:backgroundTint="#26344F"
+            android:layout_marginEnd="8dp" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="#E7F1FA"
+    >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="121dp"
+        android:layout_height="135dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/logomark"
+        />
+
+    <TextView
+        android:id="@+id/trianglecal"
+        android:layout_below="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/letsGetStartedButton"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:gravity="top"
+        android:text="TriangleCalculator"
+        android:textColor="#26344F"
+        android:textSize="39sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/letsGetStartedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:backgroundTint="#FF805D"
+        android:text="Let’s Get Started"
+        android:textColor="#26344F"
+        android:textSize="25sp"
+        />
+
+
+</LinearLayout>
